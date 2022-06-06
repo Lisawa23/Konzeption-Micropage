@@ -28,9 +28,9 @@
 </header> 
 <main>
   <br>
-  <img src="./Bildschirmfoto 2022-06-02 um 10.47.04.png"  height="45%" width="45%" style="left: 30%;" alt="">
+  <img id="struktur" src="./Assets/Projektstrukturplan.png"  height="40%" width="40%" style="left: 30%; top: 20px;" alt="">
     <!-- https://codepen.io/tarabutler/pen/dopQRb -->
-    <h2 style="text-align: center;">Zeitstrahl</h2>
+    <h2 id="time" style="text-align: center;">Zeitstrahl</h2>
     <div id="timeline-wrap">
         <div id="timeline"></div>
         <div class="marker mfirst timeline-icon one">
@@ -71,23 +71,82 @@
       <br>
       <br>
       <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      <div class="container" id="aufgabenverteilung">
+      <h2>Aufgabenverteilung</h2>
+      <table>
+        <tr style="background-color: rgb(190, 99, 226);">
+          <td>Szene</td>
+          <td>Person</td>
+          <td>Erledigen bis</td>
+          <td>Erledigt</td>
+        </tr>
+        <tr>
+          <td>Sonnenaufgang</td>
+          <td>Lisa</td>
+          <td>23.05.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Tochter beim Frühstück</td>
+          <td>Mona</td>
+          <td>23.05.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Zahn Dialog</td>
+          <td>Mona</td>
+          <td>18.05.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Zahn + Schoki</td>
+          <td>Lisa</td>
+          <td>18.05.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Frühstück von Innen</td>
+          <td>Mona</td>
+          <td>26.05.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Sitzen beim Zahnarzt</td>
+          <td>Lisa</td>
+          <td>26.05.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Zähne von Innen mit Instrumenten</td>
+          <td>Lisa</td>
+          <td>05.06.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Instrumente von Innen</td>
+          <td>Mona</td>
+          <td>05.06.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Nassspritzen und Meer</td>
+          <td>Lisa</td>
+          <td>08.06.2022</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+      </table>
+    </div>
 </main>
 <div class="hamburger-menu">
-  <input id="menu__toggle" type="checkbox" />
+  <input id="menu__toggle" type="checkbox" width="10px" height="10px"/>
   <label class="menu__btn" for="menu__toggle">
     <span></span>
   </label>
 
   <ul class="menu__box">
-    <li><a class="menu__item" href="#">Home</a></li>
-    <li><a class="menu__item" href="#">About</a></li>
-    <li><a class="menu__item" href="#">Team</a></li>
-    <li><a class="menu__item" href="#">Contact</a></li>
-    <li><a class="menu__item" href="#">Twitter</a></li>
+    <li><a class="menu__item" href="#struktur">Projektstrukturplan</a></li>
+    <li><a class="menu__item" href="#time">Zeitstrahl</a></li>
+    <li><a class="menu__item" href="#aufgabenverteilung">Aufgabenverteilung</a></li>
   </ul>
 </div>
 <footer>
@@ -95,12 +154,15 @@
         <div class="footer_parts">
             <p>Mona Stingl</p>
             <p>MKB - 4</p> 
-            <p>Matrikelnr.</p>
+            <p>267315</p>
         </div>
         <div class="footer_parts">
             <p>Lisa Waletzko</p>
             <p>MKB - 4</p>
             <p>267281</p>
+        </div>
+        <div class="footer_parts">
+          <a href="./Quellen.pdf" target="_blank" rel="noopener noreferrer">Quellen</a>
         </div>
     </div>
 </footer>
