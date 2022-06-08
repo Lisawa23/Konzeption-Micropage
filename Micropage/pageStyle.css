@@ -1,3 +1,4 @@
+@media only screen and (min-width: 320px) {
 /*body*/
 body {
     margin: 0;
@@ -652,4 +653,5 @@ input {
     text-align: left;
     font-size: 20px;
     padding-left: 20%;
+}
 }
