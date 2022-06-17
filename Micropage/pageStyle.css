@@ -175,7 +175,7 @@ ul .not_current li::after {
     height: 2px;
     background-color: #000000;
     transition-duration: .25s;
-
+    
 }
 
 .menu__btn>span::before {
