@@ -366,21 +366,15 @@ footer {
 
 
 /* Ablauf */
-.praxis-img img {
+.about-img video {
   display: block;
-  height: 400px;
   max-width: 100%;
+  padding-top: 30px;
   margin: auto;
   object-fit: cover;
   object-position: right;
 }
 
-.beispielVideo{
-  position: relative;
-  width: 15%;
-  left: 54%;
-  bottom: 345px;
-}
 /*Zeitstrahl*/
 #timeline-wrap {
   margin: 15% 15%;
@@ -896,7 +890,7 @@ button {
     color: #a0a0a0;
   }
 
-  .praxis-img img {
+  .praxis-img video {
     display: block;
     height: 200px;
     max-width: 100%;
@@ -905,12 +899,7 @@ button {
     object-position: right;
   }
 
-.beispielVideo{
-  position: relative;
-  width: 30%;
-  left: 7%;
-  bottom: 156px;
-}
+
 td {
   display: block;
 }
