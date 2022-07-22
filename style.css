@@ -289,6 +289,10 @@ width: 21%;
 #group .call-out:nth-child(2) {background-color: #fdff8b;}
 #group .call-out:nth-child(3) {background-color: #eda4ff;}
 
+.ella-pic{
+  width: 40%; padding-left: 50px; margin: 20px;
+}
+
 /* Message */
 .message{
   width: 60%;
@@ -722,6 +726,10 @@ button {
     left: 15%;
     bottom: 316px;
   }
+  .ella-pic{
+    width: 30%;
+  }
+  
 }
 
 @media (max-width: 719px) {
@@ -850,7 +858,9 @@ button {
   .mytabs label {
     padding: 3px;
     }
-  
+    .ella-pic{
+      width: 40%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -898,7 +908,9 @@ button {
     object-fit: cover;
     object-position: right;
   }
-
+  .ella-pic{
+    width: 30%;
+  }
 
 td {
   display: block;
